@@ -461,14 +461,18 @@
 <h2 id="mkdocs">mkdocs</h2>
 <ul>
 <li>从头教你用<code>mkdocs</code>构建个人博客系统: <a href="https://blog.csdn.net/qq_41261251/article/details/116021097">blog.csdn.net</a>.</li>
-<li>My notes: <a href="http://127.0.0.1:8000/">local网址</a>, <a href="https://lingyu11.github.io/notes/">public网址</a>.</li>
-<li>本地文件存放目录为<code>C:\Users\chaofu\ChaoNotes</code>, 对应于GitHub仓库为：<ul>
+<li>My notes: <a href="http://127.0.0.1:8000/">local网址</a>, <a href="https://lingyu11.github.io/notes/">public项目页面</a>，<a href="https://lingyu11.github.io/">public个人页面</a>.</li>
+<li>本地文件存放目录为<code>C:\Users\chaofu\ChaoNotes</code>，对应于GitHub仓库为：<ul>
 <li><a href="https://github.com/lingyu11/notes/tree/master">源文档</a>存放在<code>master</code>分支</li>
 <li><a href="https://github.com/lingyu11/notes/tree/gh-pages">site目录下的文档</a>存放在<code>gh-pages</code>分支，用于部署</li>
 </ul>
 </li>
+<li>个人页面存放目录为<code>C:\Users\chaofu\lingyu11.github.io</code>，对应于GitHub仓库为：<ul>
+<li><a href="https://github.com/lingyu11/lingyu11.github.io">site目录下的文档</a>存放在<code>master</code>分支，用于部署（仅仅是为了个人页面能够访问）</li>
+</ul>
+</li>
 <li>如何更新笔记：<ul>
-<li>Step1: 部署 <code>C:\Users\chaofu\ChaoNotes&gt; python -m mkdocs gh-deploy</code></li>
+<li>Step1: 部署<code>C:\Users\chaofu\lingyu11.github.io&gt; python -m mkdocs gh-deploy --config-file ../ChaoNotes/mkdocs.yml --remote-branch master</code></li>
 <li>Step2: 存档 <code>C:\Users\chaofu\ChaoNotes&gt; git add ./git commit -m "commit message"/git push</code></li>
 </ul>
 </li>
