@@ -944,27 +944,81 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#lecture-5" class="md-nav__link">
     <span class="md-ellipsis">
-      资料
+      Lecture 5 多处理器编程
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#lecture-6-1" class="md-nav__link">
     <span class="md-ellipsis">
-      操作系统是什么
+      Lecture 6 并发控制：互斥 (1)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#lecture-1" class="md-nav__link">
+  <a href="#lecture-7-2" class="md-nav__link">
     <span class="md-ellipsis">
-      Lecture 1 操作系统概述
+      Lecture 7 并发控制：互斥 (2)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 8 调试理论与实践
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-9-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 9 并发控制：同步 (1)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-10-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 10 并发控制：同步 (2)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 11 真实世界的并发编程
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-12-bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 12 并发 Bugs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-13-bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 13 应对 (并发) Bugs
     </span>
   </a>
   
@@ -1389,27 +1443,81 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#lecture-5" class="md-nav__link">
     <span class="md-ellipsis">
-      资料
+      Lecture 5 多处理器编程
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#lecture-6-1" class="md-nav__link">
     <span class="md-ellipsis">
-      操作系统是什么
+      Lecture 6 并发控制：互斥 (1)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#lecture-1" class="md-nav__link">
+  <a href="#lecture-7-2" class="md-nav__link">
     <span class="md-ellipsis">
-      Lecture 1 操作系统概述
+      Lecture 7 并发控制：互斥 (2)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 8 调试理论与实践
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-9-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 9 并发控制：同步 (1)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-10-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 10 并发控制：同步 (2)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 11 真实世界的并发编程
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-12-bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 12 并发 Bugs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-13-bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture 13 应对 (并发) Bugs
     </span>
   </a>
   
@@ -1435,30 +1543,692 @@
 
 <h1 id="_1">并发<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <div style="margin-top: -30px; font-size: 0.75em; opacity: 0.7;">
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10h-2a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8V2m6.78 1a.69.69 0 0 0-.48.2l-1.22 1.21 2.5 2.5L20.8 5.7c.26-.26.26-.7 0-.95L19.25 3.2c-.13-.13-.3-.2-.47-.2m-2.41 2.12L9 12.5V15h2.5l7.37-7.38-2.5-2.5Z"/></svg></span> 约 470 个字 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"/></svg></span> 预计阅读时间 2 分钟</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10h-2a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8V2m6.78 1a.69.69 0 0 0-.48.2l-1.22 1.21 2.5 2.5L20.8 5.7c.26-.26.26-.7 0-.95L19.25 3.2c-.13-.13-.3-.2-.47-.2m-2.41 2.12L9 12.5V15h2.5l7.37-7.38-2.5-2.5Z"/></svg></span> 约 1297 个字 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3l89.3 89.4-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg></span> 283 行代码 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"/></svg></span> 预计阅读时间 8 分钟</p>
 </div>
-<h2 id="_2">资料<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://jyywiki.cn/">Yanyan's wiki</a></li>
-<li><a href="https://jyywiki.cn/OS/2024/">课程网站</a></li>
-<li><a href="https://www.bilibili.com/video/BV1Xm411f7CM/?spm_id_from=333.788&amp;vd_source=2a33d03ec3e67e46971208a7faa0dcda">video</a></li>
+<h2 id="lecture-5">Lecture 5 多处理器编程<a class="headerlink" href="#lecture-5" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Take-away Messages</p>
+<p>在简化多线程的模型中，并发程序就是 “状态机的集合”，每一步选一个状态机执行一步。然而，真实的系统却因为 “编译器” 的无处不在，使共享内存并发的行为十分复杂。</p>
+<p>不幸的是，人类本质上是物理世界 (宏观时间) 中的 “sequential creature”，因此我们在编程时，我们的直觉也只习惯于单线程的顺序/选择/循环结构，真实多处理器上的并发编程是非常具有挑战性的 “底层技术”。在后续的课程中，我们将会提出若干并发控制技术，使得我们可以在需要的时候避免并发的发生，使并发程序退回到顺序程序，从而使我们能够理解和控制并发。</p>
+</div>
+<ol>
+<li>简化的线程 API (thread.h)<ul>
+<li><code>create(fn)</code><ul>
+<li>创建一个入口函数是 <code>fn</code> 的线程，并立即开始执行<ul>
+<li><code>void fn(int tid) { ... }</code></li>
+<li>参数 <code>tid</code> 从 1 开始编号</li>
 </ul>
-<h2 id="_3">操作系统是什么<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<ol>
-<li><strong>在应用程序眼中，操作系统 = 对象 + API。</strong>从应用程序的视角看，操作系统定义了一系列的对象 (进程/线程、地址空间、文件、设备……) 和操纵它们的 API (系统调用)。</li>
-<li><strong>在硬件眼中，操作系统 = C 程序。</strong>从硬件的视角看，操作系统是一个拥有访问全部硬件功能的程序。硬件会帮助操作系统完成最初的初始化和加载，之后，操作系统加载完第一个程序后，从此作为 “中断处理程序” 在后台管理整个计算机系统。</li>
-<li><strong>在上帝眼中，操作系统 = 一个数学对象。</strong>我们可以把计算机系统 (电路) 建模成有限状态机模型，当然也可以把运行在硬件上的任何软件 (包括操作系统) 建模成状态机。</li>
+</li>
+<li>行为：<code>sys_spawn(fn, tid)</code></li>
+</ul>
+</li>
+<li><code>join()</code><ul>
+<li>等待所有运行线程的返回 (也可以不调用)</li>
+<li>行为：<code>while (done != T) sys_sched()</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>hello.c交替打印 a 和 b</p>
+<div class="language-C highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">C</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span>
+<span class="normal"><a href="#__codelineno-0-5">5</a></span>
+<span class="normal"><a href="#__codelineno-0-6">6</a></span>
+<span class="normal"><a href="#__codelineno-0-7">7</a></span>
+<span class="normal"><a href="#__codelineno-0-8">8</a></span>
+<span class="normal"><a href="#__codelineno-0-9">9</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;thread.h&quot;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="kt">void</span><span class="w"> </span><span class="nf">T_a</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;a&quot;</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">}</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="kt">void</span><span class="w"> </span><span class="nf">T_b</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;b&quot;</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">}</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">    </span><span class="n">create</span><span class="p">(</span><span class="n">T_a</span><span class="p">);</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">    </span><span class="n">create</span><span class="p">(</span><span class="n">T_b</span><span class="p">);</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<p><code>top -d 0.5</code>: 查看进程的 CPU 占用率，可以看到 CPU 使用率近乎 200%，说明两个线程几乎同时运行。操作系统会自动把线程放置在不同的处理器上，以提高效率。</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a>PID<span class="w">   </span>USER<span class="w">      </span>PR<span class="w">   </span>NI<span class="w">  </span>VIRT<span class="w">   </span>RES<span class="w">  </span>SHR<span class="w"> </span>S<span class="w"> </span>%CPU<span class="w">   </span>%MEM<span class="w">  </span>TIME+<span class="w">   </span>COMMAND
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="m">26408</span><span class="w"> </span>username<span class="w">  </span><span class="m">20</span><span class="w">   </span><span class="m">0</span><span class="w">   </span><span class="m">84796</span><span class="w">  </span><span class="m">956</span><span class="w">  </span><span class="m">868</span><span class="w"> </span>S<span class="w"> </span><span class="m">196</span>.0<span class="w">  </span><span class="m">0</span>.0<span class="w">   </span><span class="m">0</span>:43.42<span class="w"> </span>hello
+</span></code></pre></div></td></tr></table></div>
+</li>
+<li>
+<p>T_a 和 T_b 真的共享内存吗？→ memory.c</p>
+<div class="language-C highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">C</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-2-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-2-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-2-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-2-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-2-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-2-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-2-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-2-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-2-10">10</a></span>
+<span class="normal"><a href="#__codelineno-2-11">11</a></span>
+<span class="normal"><a href="#__codelineno-2-12">12</a></span>
+<span class="normal"><a href="#__codelineno-2-13">13</a></span>
+<span class="normal"><a href="#__codelineno-2-14">14</a></span>
+<span class="normal"><a href="#__codelineno-2-15">15</a></span>
+<span class="normal"><a href="#__codelineno-2-16">16</a></span>
+<span class="normal"><a href="#__codelineno-2-17">17</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;thread.h&quot;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="c1">// We claim that n is shared among threads.</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">;</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5"></a>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="kt">void</span><span class="w"> </span><span class="nf">T_hello</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="w">    </span><span class="c1">// To validate this claim, each thread reads and increments</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8"></a><span class="w">    </span><span class="c1">// n, and we expect to see different numbers being printed.</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="o">++</span><span class="p">;</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10"></a><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="p">);</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11"></a><span class="p">}</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12"></a>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15"></a><span class="w">        </span><span class="n">create</span><span class="p">(</span><span class="n">T_hello</span><span class="p">);</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+</li>
+<li>
+<p>如何证明线程具有独立堆栈 (以及确定堆栈的范围)？→ stack.c</p>
+<div class="language-C highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">C</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-3-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-3-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-3-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-3-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-3-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-3-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-3-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-3-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-3-10">10</a></span>
+<span class="normal"><a href="#__codelineno-3-11">11</a></span>
+<span class="normal"><a href="#__codelineno-3-12">12</a></span>
+<span class="normal"><a href="#__codelineno-3-13">13</a></span>
+<span class="normal"><a href="#__codelineno-3-14">14</a></span>
+<span class="normal"><a href="#__codelineno-3-15">15</a></span>
+<span class="normal"><a href="#__codelineno-3-16">16</a></span>
+<span class="normal"><a href="#__codelineno-3-17">17</a></span>
+<span class="normal"><a href="#__codelineno-3-18">18</a></span>
+<span class="normal"><a href="#__codelineno-3-19">19</a></span>
+<span class="normal"><a href="#__codelineno-3-20">20</a></span>
+<span class="normal"><a href="#__codelineno-3-21">21</a></span>
+<span class="normal"><a href="#__codelineno-3-22">22</a></span>
+<span class="normal"><a href="#__codelineno-3-23">23</a></span>
+<span class="normal"><a href="#__codelineno-3-24">24</a></span>
+<span class="normal"><a href="#__codelineno-3-25">25</a></span>
+<span class="normal"><a href="#__codelineno-3-26">26</a></span>
+<span class="normal"><a href="#__codelineno-3-27">27</a></span>
+<span class="normal"><a href="#__codelineno-3-28">28</a></span>
+<span class="normal"><a href="#__codelineno-3-29">29</a></span>
+<span class="normal"><a href="#__codelineno-3-30">30</a></span>
+<span class="normal"><a href="#__codelineno-3-31">31</a></span>
+<span class="normal"><a href="#__codelineno-3-32">32</a></span>
+<span class="normal"><a href="#__codelineno-3-33">33</a></span>
+<span class="normal"><a href="#__codelineno-3-34">34</a></span>
+<span class="normal"><a href="#__codelineno-3-35">35</a></span>
+<span class="normal"><a href="#__codelineno-3-36">36</a></span>
+<span class="normal"><a href="#__codelineno-3-37">37</a></span>
+<span class="normal"><a href="#__codelineno-3-38">38</a></span>
+<span class="normal"><a href="#__codelineno-3-39">39</a></span>
+<span class="normal"><a href="#__codelineno-3-40">40</a></span>
+<span class="normal"><a href="#__codelineno-3-41">41</a></span>
+<span class="normal"><a href="#__codelineno-3-42">42</a></span>
+<span class="normal"><a href="#__codelineno-3-43">43</a></span>
+<span class="normal"><a href="#__codelineno-3-44">44</a></span>
+<span class="normal"><a href="#__codelineno-3-45">45</a></span>
+<span class="normal"><a href="#__codelineno-3-46">46</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;thread.h&quot;</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="cp">#define N 4</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">volatile</span><span class="w"> </span><span class="n">low</span><span class="p">[</span><span class="n">N</span><span class="p">];</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">volatile</span><span class="w"> </span><span class="n">high</span><span class="p">[</span><span class="n">N</span><span class="p">];</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7"></a>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="kt">void</span><span class="w"> </span><span class="nf">update_range</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">ptr</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9"></a><span class="w">    </span><span class="c1">// We have a witness of thread T accessing stack pointer</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10"></a><span class="w">    </span><span class="c1">// ptr. So we keep this record.</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ptr</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">low</span><span class="p">[</span><span class="n">T</span><span class="p">])</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12"></a><span class="w">        </span><span class="n">low</span><span class="p">[</span><span class="n">T</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ptr</span><span class="p">;</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ptr</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">high</span><span class="p">[</span><span class="n">T</span><span class="p">])</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15"></a><span class="w">        </span><span class="n">high</span><span class="p">[</span><span class="n">T</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ptr</span><span class="p">;</span>
+</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17"></a><span class="p">}</span>
+</span><span id="__span-3-18"><a id="__codelineno-3-18" name="__codelineno-3-18"></a>
+</span><span id="__span-3-19"><a id="__codelineno-3-19" name="__codelineno-3-19"></a><span class="kt">void</span><span class="w"> </span><span class="nf">probe</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-20"><a id="__codelineno-3-20" name="__codelineno-3-20"></a><span class="w">    </span><span class="c1">// Local variables are stack-allocated.</span>
+</span><span id="__span-3-21"><a id="__codelineno-3-21" name="__codelineno-3-21"></a><span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">scratch</span><span class="p">[</span><span class="mi">64</span><span class="p">];</span>
+</span><span id="__span-3-22"><a id="__codelineno-3-22" name="__codelineno-3-22"></a><span class="w">    </span><span class="n">update_range</span><span class="p">(</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">scratch</span><span class="p">);</span>
+</span><span id="__span-3-23"><a id="__codelineno-3-23" name="__codelineno-3-23"></a>
+</span><span id="__span-3-24"><a id="__codelineno-3-24" name="__codelineno-3-24"></a><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Stack(T%d) &gt;= %ld KB</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span>
+</span><span id="__span-3-25"><a id="__codelineno-3-25" name="__codelineno-3-25"></a><span class="w">        </span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">high</span><span class="p">[</span><span class="n">T</span><span class="p">]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">low</span><span class="p">[</span><span class="n">T</span><span class="p">])</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">1024</span><span class="p">);</span>
+</span><span id="__span-3-26"><a id="__codelineno-3-26" name="__codelineno-3-26"></a>
+</span><span id="__span-3-27"><a id="__codelineno-3-27" name="__codelineno-3-27"></a><span class="w">    </span><span class="n">probe</span><span class="p">(</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span><span class="w"> </span><span class="c1">// Infinite recursion.</span>
+</span><span id="__span-3-28"><a id="__codelineno-3-28" name="__codelineno-3-28"></a><span class="p">}</span>
+</span><span id="__span-3-29"><a id="__codelineno-3-29" name="__codelineno-3-29"></a>
+</span><span id="__span-3-30"><a id="__codelineno-3-30" name="__codelineno-3-30"></a><span class="kt">void</span><span class="w"> </span><span class="nf">T_probe</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">T</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-31"><a id="__codelineno-3-31" name="__codelineno-3-31"></a><span class="w">    </span><span class="n">T</span><span class="w"> </span><span class="o">-=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="c1">// 创建的线程pid从1开始，所以T-1以拿到正确的low[T]</span>
+</span><span id="__span-3-32"><a id="__codelineno-3-32" name="__codelineno-3-32"></a><span class="w">    </span><span class="n">low</span><span class="p">[</span><span class="n">T</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="p">)</span><span class="mi">-1</span><span class="p">;</span><span class="w">  </span><span class="c1">// 0xffffffffffffffff</span>
+</span><span id="__span-3-33"><a id="__codelineno-3-33" name="__codelineno-3-33"></a><span class="w">    </span><span class="n">high</span><span class="p">[</span><span class="n">T</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="p">)</span><span class="mi">0</span><span class="p">;</span><span class="w">  </span><span class="c1">// 0x0000000000000000</span>
+</span><span id="__span-3-34"><a id="__codelineno-3-34" name="__codelineno-3-34"></a><span class="w">    </span><span class="n">probe</span><span class="p">(</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+</span><span id="__span-3-35"><a id="__codelineno-3-35" name="__codelineno-3-35"></a><span class="p">}</span>
+</span><span id="__span-3-36"><a id="__codelineno-3-36" name="__codelineno-3-36"></a>
+</span><span id="__span-3-37"><a id="__codelineno-3-37" name="__codelineno-3-37"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-38"><a id="__codelineno-3-38" name="__codelineno-3-38"></a><span class="w">    </span><span class="c1">// Disable printf buffering. Try to make more lines being</span>
+</span><span id="__span-3-39"><a id="__codelineno-3-39" name="__codelineno-3-39"></a><span class="w">    </span><span class="c1">// printed, because the program will eventually crash (and</span>
+</span><span id="__span-3-40"><a id="__codelineno-3-40" name="__codelineno-3-40"></a><span class="w">    </span><span class="c1">// all buffered contents are lost).</span>
+</span><span id="__span-3-41"><a id="__codelineno-3-41" name="__codelineno-3-41"></a><span class="w">    </span><span class="n">setbuf</span><span class="p">(</span><span class="n">stdout</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">);</span>
+</span><span id="__span-3-42"><a id="__codelineno-3-42" name="__codelineno-3-42"></a>
+</span><span id="__span-3-43"><a id="__codelineno-3-43" name="__codelineno-3-43"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">N</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-44"><a id="__codelineno-3-44" name="__codelineno-3-44"></a><span class="w">        </span><span class="n">create</span><span class="p">(</span><span class="n">T_probe</span><span class="p">);</span>
+</span><span id="__span-3-45"><a id="__codelineno-3-45" name="__codelineno-3-45"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-3-46"><a id="__codelineno-3-46" name="__codelineno-3-46"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<p>程序输出：
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-4-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-4-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-4-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-4-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-4-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-4-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-4-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-4-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-4-10">10</a></span>
+<span class="normal"><a href="#__codelineno-4-11">11</a></span>
+<span class="normal"><a href="#__codelineno-4-12">12</a></span>
+<span class="normal"><a href="#__codelineno-4-13">13</a></span>
+<span class="normal"><a href="#__codelineno-4-14">14</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1"></a>-----<span class="w"> </span>Shared<span class="w"> </span>Memory<span class="w"> </span>Test<span class="w"> </span>-----
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="m">0</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="m">1</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="m">2</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5"></a><span class="m">3</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6"></a><span class="m">4</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7"></a><span class="m">5</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8"></a><span class="m">6</span>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9"></a><span class="m">7</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10"></a><span class="m">8</span>
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11"></a><span class="m">9</span>
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12"></a>-----<span class="w"> </span>Stack<span class="w"> </span>Probe<span class="w"> </span>Test<span class="w"> </span>-----
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13"></a>Segmentation<span class="w"> </span>fault<span class="w"> </span><span class="o">(</span>core<span class="w"> </span>dumped<span class="o">)</span>
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14"></a>Stack<span class="o">(</span>T2<span class="o">)</span><span class="w"> </span>&gt;<span class="o">=</span><span class="w"> </span><span class="m">8177</span><span class="w"> </span>KB
+</span></code></pre></div></td></tr></table></div>
+8177KB最接近8192KB，也就是说线程库默认提供的stack大小是8MB，这个大小足以够一般的程序使用了。</p>
+</li>
+<li>
+<p>对于并发编程，要舍弃一些我们之前对单线程顺序程序的理解:</p>
+<ul>
+<li>状态迁移原子性的假设: <span style="color:lightblue;">共享内存</span>推翻了 “原子性” 假设<ul>
+<li>任何时候，load 读到的值都可能是别的线程写入的</li>
+<li>我们习以为常的简化会漏掉并发程序可能的行为</li>
+</ul>
+</li>
+<li>程序顺序执行的假设: 编译器会试图优化状态迁移，改变执行流</li>
+<li>存在全局指令执行顺序的假设: 不同处理器可能看到不同的共享内存, “一个共享内存” 只是个简化的幻觉。由于动态指令调度和缓存的共同作用，实际程序的运行结果更可能超出我们的预期。</li>
+</ul>
+</li>
+<li>
+<p>状态迁移原子性的假设: alipay.c
+    <div class="language-C highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">C</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-5-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-5-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-5-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-5-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-5-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-5-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-5-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-5-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-5-10">10</a></span>
+<span class="normal"><a href="#__codelineno-5-11">11</a></span>
+<span class="normal"><a href="#__codelineno-5-12">12</a></span>
+<span class="normal"><a href="#__codelineno-5-13">13</a></span>
+<span class="normal"><a href="#__codelineno-5-14">14</a></span>
+<span class="normal"><a href="#__codelineno-5-15">15</a></span>
+<span class="normal"><a href="#__codelineno-5-16">16</a></span>
+<span class="normal"><a href="#__codelineno-5-17">17</a></span>
+<span class="normal"><a href="#__codelineno-5-18">18</a></span>
+<span class="normal"><a href="#__codelineno-5-19">19</a></span>
+<span class="normal"><a href="#__codelineno-5-20">20</a></span>
+<span class="normal"><a href="#__codelineno-5-21">21</a></span>
+<span class="normal"><a href="#__codelineno-5-22">22</a></span>
+<span class="normal"><a href="#__codelineno-5-23">23</a></span>
+<span class="normal"><a href="#__codelineno-5-24">24</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;thread.h&quot;</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2"></a>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">balance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4"></a>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5"></a><span class="kt">void</span><span class="w"> </span><span class="nf">Alipay_withdraw</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">amt</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">balance</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">amt</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7"></a><span class="w">        </span><span class="c1">// Bugs may only manifest on specific timings. Sometimes</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8"></a><span class="w">        </span><span class="c1">// we reproduce bugs by inserting sleep()s.</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9"></a><span class="w">        </span><span class="n">usleep</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"> </span><span class="c1">// 引发sys_sched()</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10"></a>
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11"></a><span class="w">        </span><span class="n">balance</span><span class="w"> </span><span class="o">-=</span><span class="w"> </span><span class="n">amt</span><span class="p">;</span>
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13"></a><span class="p">}</span>
+</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14"></a>
+</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15"></a><span class="kt">void</span><span class="w"> </span><span class="nf">T_alipay</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-16"><a id="__codelineno-5-16" name="__codelineno-5-16"></a><span class="w">    </span><span class="n">Alipay_withdraw</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+</span><span id="__span-5-17"><a id="__codelineno-5-17" name="__codelineno-5-17"></a><span class="p">}</span>
+</span><span id="__span-5-18"><a id="__codelineno-5-18" name="__codelineno-5-18"></a>
+</span><span id="__span-5-19"><a id="__codelineno-5-19" name="__codelineno-5-19"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-20"><a id="__codelineno-5-20" name="__codelineno-5-20"></a><span class="w">    </span><span class="n">create</span><span class="p">(</span><span class="n">T_alipay</span><span class="p">);</span>
+</span><span id="__span-5-21"><a id="__codelineno-5-21" name="__codelineno-5-21"></a><span class="w">    </span><span class="n">create</span><span class="p">(</span><span class="n">T_alipay</span><span class="p">);</span>
+</span><span id="__span-5-22"><a id="__codelineno-5-22" name="__codelineno-5-22"></a><span class="w">    </span><span class="n">join</span><span class="p">();</span>
+</span><span id="__span-5-23"><a id="__codelineno-5-23" name="__codelineno-5-23"></a><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;balance = %lu</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">balance</span><span class="p">);</span>
+</span><span id="__span-5-24"><a id="__codelineno-5-24" name="__codelineno-5-24"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div></p>
+<p>在usleep(1)的情况下输出是<code>balance = 18446744073709551516</code>，两个线程同时满足<code>balance &gt;= amt</code>，相当于减了两次100。</p>
+</li>
+<li>
+<p>以下代码 sum 的最小值是2的情况：该线程执行到最后一个for循环时，load到的sum为1（注意不可能load到sum为0，因为对于本线程而言已经执行过两个for循环了，如果是load本线程的sum应当是2，一定是load别的线程改写后的sum。别的线程一定要至少执行过一次load-store把sum写进去，所以此时别的线程里sum最小为1），然后接着其他线程都执行完所有循环结束了。该线程继续执行完剩下的<code>t += 1; store(sum, t);</code>导致最后sum为2。
+    <div class="language-C highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">C</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span>
+<span class="normal"><a href="#__codelineno-6-2">2</a></span>
+<span class="normal"><a href="#__codelineno-6-3">3</a></span>
+<span class="normal"><a href="#__codelineno-6-4">4</a></span>
+<span class="normal"><a href="#__codelineno-6-5">5</a></span>
+<span class="normal"><a href="#__codelineno-6-6">6</a></span>
+<span class="normal"><a href="#__codelineno-6-7">7</a></span>
+<span class="normal"><a href="#__codelineno-6-8">8</a></span>
+<span class="normal"><a href="#__codelineno-6-9">9</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="c1">// 初始时 sum = 0; 假设单行语句的执行是原子的</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2"></a><span class="c1">// 并发执行三个 T_sum，sum 的最小值是多少？→ 是2</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3"></a><span class="kt">void</span><span class="w"> </span><span class="nf">T_sum</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">load</span><span class="p">(</span><span class="n">sum</span><span class="p">);</span>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6"></a><span class="w">        </span><span class="n">t</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7"></a><span class="w">        </span><span class="n">store</span><span class="p">(</span><span class="n">sum</span><span class="p">,</span><span class="w"> </span><span class="n">t</span><span class="p">);</span>
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div></p>
+</li>
+<li>
+<p>sum.c：
+    <div class="language-C highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">C</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-7-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-7-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-7-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-7-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-7-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-7-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-7-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-7-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-7-10">10</a></span>
+<span class="normal"><a href="#__codelineno-7-11">11</a></span>
+<span class="normal"><a href="#__codelineno-7-12">12</a></span>
+<span class="normal"><a href="#__codelineno-7-13">13</a></span>
+<span class="normal"><a href="#__codelineno-7-14">14</a></span>
+<span class="normal"><a href="#__codelineno-7-15">15</a></span>
+<span class="normal"><a href="#__codelineno-7-16">16</a></span>
+<span class="normal"><a href="#__codelineno-7-17">17</a></span>
+<span class="normal"><a href="#__codelineno-7-18">18</a></span>
+<span class="normal"><a href="#__codelineno-7-19">19</a></span>
+<span class="normal"><a href="#__codelineno-7-20">20</a></span>
+<span class="normal"><a href="#__codelineno-7-21">21</a></span>
+<span class="normal"><a href="#__codelineno-7-22">22</a></span>
+<span class="normal"><a href="#__codelineno-7-23">23</a></span>
+<span class="normal"><a href="#__codelineno-7-24">24</a></span>
+<span class="normal"><a href="#__codelineno-7-25">25</a></span>
+<span class="normal"><a href="#__codelineno-7-26">26</a></span>
+<span class="normal"><a href="#__codelineno-7-27">27</a></span>
+<span class="normal"><a href="#__codelineno-7-28">28</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;thread.h&quot;</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2"></a>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3"></a><span class="cp">#define N 100000000</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4"></a>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5"></a><span class="kt">long</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6"></a>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7"></a><span class="kt">void</span><span class="w"> </span><span class="nf">T_sum</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">N</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9"></a><span class="w">        </span><span class="n">sum</span><span class="o">++</span><span class="p">;</span>
+</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10"></a>
+</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11"></a><span class="w">        </span><span class="c1">// Won&#39;t work even if we force a single-instruction</span>
+</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12"></a><span class="w">        </span><span class="c1">// increment.</span>
+</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13"></a>
+</span><span id="__span-7-14"><a id="__codelineno-7-14" name="__codelineno-7-14"></a><span class="w">        </span><span class="c1">// asm volatile(</span>
+</span><span id="__span-7-15"><a id="__codelineno-7-15" name="__codelineno-7-15"></a><span class="w">        </span><span class="c1">//     &quot;incq %0&quot; : &quot;+m&quot;(sum)</span>
+</span><span id="__span-7-16"><a id="__codelineno-7-16" name="__codelineno-7-16"></a><span class="w">        </span><span class="c1">// );</span>
+</span><span id="__span-7-17"><a id="__codelineno-7-17" name="__codelineno-7-17"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-7-18"><a id="__codelineno-7-18" name="__codelineno-7-18"></a><span class="p">}</span>
+</span><span id="__span-7-19"><a id="__codelineno-7-19" name="__codelineno-7-19"></a>
+</span><span id="__span-7-20"><a id="__codelineno-7-20" name="__codelineno-7-20"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-7-21"><a id="__codelineno-7-21" name="__codelineno-7-21"></a><span class="w">    </span><span class="n">create</span><span class="p">(</span><span class="n">T_sum</span><span class="p">);</span>
+</span><span id="__span-7-22"><a id="__codelineno-7-22" name="__codelineno-7-22"></a><span class="w">    </span><span class="n">create</span><span class="p">(</span><span class="n">T_sum</span><span class="p">);</span>
+</span><span id="__span-7-23"><a id="__codelineno-7-23" name="__codelineno-7-23"></a>
+</span><span id="__span-7-24"><a id="__codelineno-7-24" name="__codelineno-7-24"></a><span class="w">    </span><span class="n">join</span><span class="p">();</span>
+</span><span id="__span-7-25"><a id="__codelineno-7-25" name="__codelineno-7-25"></a>
+</span><span id="__span-7-26"><a id="__codelineno-7-26" name="__codelineno-7-26"></a><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;sum = %ld</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">sum</span><span class="p">);</span>
+</span><span id="__span-7-27"><a id="__codelineno-7-27" name="__codelineno-7-27"></a><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;2*n = %ld</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="mf">2L</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">N</span><span class="p">);</span>
+</span><span id="__span-7-28"><a id="__codelineno-7-28" name="__codelineno-7-28"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div></p>
+<p>不同的编译优化输出不一样：</p>
+<ul>
+<li>
+<p>-O0输出<code>sum = 119137703 2*n = 200000000</code></p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-8-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-8-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-8-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-8-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-8-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-8-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-8-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-8-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-8-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-8-10">10</a></span>
+<span class="normal"><a href="#__codelineno-8-11">11</a></span>
+<span class="normal"><a href="#__codelineno-8-12">12</a></span>
+<span class="normal"><a href="#__codelineno-8-13">13</a></span>
+<span class="normal"><a href="#__codelineno-8-14">14</a></span>
+<span class="normal"><a href="#__codelineno-8-15">15</a></span>
+<span class="normal"><a href="#__codelineno-8-16">16</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1"></a>00000000000013d9<span class="w"> </span>&lt;T_sum&gt;:
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2"></a><span class="w">    </span>13d9:<span class="w">       </span>f3<span class="w"> </span>0f<span class="w"> </span>1e<span class="w"> </span>fa<span class="w">             </span>endbr64<span class="w"> </span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3"></a><span class="w">    </span>13dd:<span class="w">       </span><span class="m">55</span><span class="w">                      </span>push<span class="w">   </span>%rbp
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4"></a><span class="w">    </span>13de:<span class="w">       </span><span class="m">48</span><span class="w"> </span><span class="m">89</span><span class="w"> </span>e5<span class="w">                </span>mov<span class="w">    </span>%rsp,%rbp
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5"></a><span class="w">    </span>13e1:<span class="w">       </span>c7<span class="w"> </span><span class="m">45</span><span class="w"> </span><span class="nb">fc</span><span class="w"> </span><span class="m">00</span><span class="w"> </span><span class="m">00</span><span class="w"> </span><span class="m">00</span><span class="w"> </span><span class="m">00</span><span class="w">    </span>movl<span class="w">   </span><span class="nv">$0</span>x0,-0x4<span class="o">(</span>%rbp<span class="o">)</span>
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6"></a><span class="w">    </span>13e8:<span class="w">       </span>eb<span class="w"> </span><span class="m">16</span><span class="w">                   </span>jmp<span class="w">    </span><span class="m">1400</span><span class="w"> </span>&lt;T_sum+0x27&gt;
+</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7"></a><span class="w">    </span>13ea:<span class="w">       </span><span class="m">48</span><span class="w"> </span>8b<span class="w"> </span><span class="m">05</span><span class="w"> </span>4f<span class="w"> </span>2c<span class="w"> </span><span class="m">00</span><span class="w"> </span><span class="m">00</span><span class="w">    </span>mov<span class="w">    </span>0x2c4f<span class="o">(</span>%rip<span class="o">)</span>,%rax<span class="w">        </span><span class="c1"># 4040 &lt;sum&gt;</span>
+</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8"></a><span class="w">    </span>13f1:<span class="w">       </span><span class="m">48</span><span class="w"> </span><span class="m">83</span><span class="w"> </span>c0<span class="w"> </span><span class="m">01</span><span class="w">             </span>add<span class="w">    </span><span class="nv">$0</span>x1,%rax
+</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9"></a><span class="w">    </span>13f5:<span class="w">       </span><span class="m">48</span><span class="w"> </span><span class="m">89</span><span class="w"> </span><span class="m">05</span><span class="w"> </span><span class="m">44</span><span class="w"> </span>2c<span class="w"> </span><span class="m">00</span><span class="w"> </span><span class="m">00</span><span class="w">    </span>mov<span class="w">    </span>%rax,0x2c44<span class="o">(</span>%rip<span class="o">)</span><span class="w">        </span><span class="c1"># 4040 &lt;sum&gt;</span>
+</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10"></a><span class="w">    </span>13fc:<span class="w">       </span><span class="m">83</span><span class="w"> </span><span class="m">45</span><span class="w"> </span><span class="nb">fc</span><span class="w"> </span><span class="m">01</span><span class="w">             </span>addl<span class="w">   </span><span class="nv">$0</span>x1,-0x4<span class="o">(</span>%rbp<span class="o">)</span>
+</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11"></a><span class="w">    </span><span class="m">1400</span>:<span class="w">       </span><span class="m">81</span><span class="w"> </span>7d<span class="w"> </span><span class="nb">fc</span><span class="w"> </span>ff<span class="w"> </span>e0<span class="w"> </span>f5<span class="w"> </span><span class="m">05</span><span class="w">    </span>cmpl<span class="w">   </span><span class="nv">$0</span>x5f5e0ff,-0x4<span class="o">(</span>%rbp<span class="o">)</span>
+</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12"></a><span class="w">    </span><span class="m">1407</span>:<span class="w">       </span>7e<span class="w"> </span>e1<span class="w">                   </span>jle<span class="w">    </span>13ea<span class="w"> </span>&lt;T_sum+0x11&gt;
+</span><span id="__span-8-13"><a id="__codelineno-8-13" name="__codelineno-8-13"></a><span class="w">    </span><span class="m">1409</span>:<span class="w">       </span><span class="m">90</span><span class="w">                      </span>nop
+</span><span id="__span-8-14"><a id="__codelineno-8-14" name="__codelineno-8-14"></a><span class="w">    </span>140a:<span class="w">       </span><span class="m">90</span><span class="w">                      </span>nop
+</span><span id="__span-8-15"><a id="__codelineno-8-15" name="__codelineno-8-15"></a><span class="w">    </span>140b:<span class="w">       </span>5d<span class="w">                      </span>pop<span class="w">    </span>%rbp
+</span><span id="__span-8-16"><a id="__codelineno-8-16" name="__codelineno-8-16"></a><span class="w">    </span>140c:<span class="w">       </span>c3<span class="w">                      </span>ret
+</span></code></pre></div></td></tr></table></div>
+</li>
+<li>
+<p>-O1输出<code>sum = 100000000 2*n = 200000000</code></p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-9-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-9-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-9-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-9-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-9-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-9-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-9-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-9-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-9-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-9-10">10</a></span>
+<span class="normal"><a href="#__codelineno-9-11">11</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1"></a>00000000000011e3<span class="w"> </span>&lt;T_sum&gt;:
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2"></a><span class="w">    </span>11e3:<span class="w">       </span>f3<span class="w"> </span>0f<span class="w"> </span>1e<span class="w"> </span>fa<span class="w">             </span>endbr64<span class="w"> </span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3"></a><span class="w">    </span>11e7:<span class="w">       </span><span class="m">48</span><span class="w"> </span>8b<span class="w"> </span><span class="m">15</span><span class="w"> </span><span class="m">52</span><span class="w"> </span>2e<span class="w"> </span><span class="m">00</span><span class="w"> </span><span class="m">00</span><span class="w">    </span>mov<span class="w">    </span>0x2e52<span class="o">(</span>%rip<span class="o">)</span>,%rdx<span class="w">        </span><span class="c1"># 4040 &lt;sum&gt;</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4"></a><span class="w">    </span>11ee:<span class="w">       </span><span class="m">48</span><span class="w"> </span>8d<span class="w"> </span><span class="m">42</span><span class="w"> </span><span class="m">01</span><span class="w">             </span>lea<span class="w">    </span>0x1<span class="o">(</span>%rdx<span class="o">)</span>,%rax
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5"></a><span class="w">    </span>11f2:<span class="w">       </span><span class="m">48</span><span class="w"> </span><span class="m">81</span><span class="w"> </span>c2<span class="w"> </span><span class="m">01</span><span class="w"> </span>e1<span class="w"> </span>f5<span class="w"> </span><span class="m">05</span><span class="w">    </span>add<span class="w">    </span><span class="nv">$0</span>x5f5e101,%rdx
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6"></a><span class="w">    </span>11f9:<span class="w">       </span><span class="m">48</span><span class="w"> </span><span class="m">89</span><span class="w"> </span>c1<span class="w">                </span>mov<span class="w">    </span>%rax,%rcx
+</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7"></a><span class="w">    </span>11fc:<span class="w">       </span><span class="m">48</span><span class="w"> </span><span class="m">83</span><span class="w"> </span>c0<span class="w"> </span><span class="m">01</span><span class="w">             </span>add<span class="w">    </span><span class="nv">$0</span>x1,%rax
+</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8"></a><span class="w">    </span><span class="m">1200</span>:<span class="w">       </span><span class="m">48</span><span class="w"> </span><span class="m">39</span><span class="w"> </span>d0<span class="w">                </span>cmp<span class="w">    </span>%rdx,%rax
+</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9"></a><span class="w">    </span><span class="m">1203</span>:<span class="w">       </span><span class="m">75</span><span class="w"> </span>f4<span class="w">                   </span>jne<span class="w">    </span>11f9<span class="w"> </span>&lt;T_sum+0x16&gt;
+</span><span id="__span-9-10"><a id="__codelineno-9-10" name="__codelineno-9-10"></a><span class="w">    </span><span class="m">1205</span>:<span class="w">       </span><span class="m">48</span><span class="w"> </span><span class="m">89</span><span class="w"> </span>0d<span class="w"> </span><span class="m">34</span><span class="w"> </span>2e<span class="w"> </span><span class="m">00</span><span class="w"> </span><span class="m">00</span><span class="w">    </span>mov<span class="w">    </span>%rcx,0x2e34<span class="o">(</span>%rip<span class="o">)</span><span class="w">        </span><span class="c1"># 4040 &lt;sum&gt;</span>
+</span><span id="__span-9-11"><a id="__codelineno-9-11" name="__codelineno-9-11"></a><span class="w">    </span>120c:<span class="w">       </span>c3<span class="w">                      </span>ret
+</span></code></pre></div></td></tr></table></div>
+</li>
+<li>
+<p>-O2输出<code>sum = 200000000 2*n = 200000000</code>，即便如此，直接变成一条addq指令，sum的输出仍旧不一定正确！如同alipay的例子一样如果加入usleep(1)还是可以看到每次结果都不一样。</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-10-1">1</a></span>
+<span class="normal"><a href="#__codelineno-10-2">2</a></span>
+<span class="normal"><a href="#__codelineno-10-3">3</a></span>
+<span class="normal"><a href="#__codelineno-10-4">4</a></span>
+<span class="normal"><a href="#__codelineno-10-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1"></a><span class="m">0000000000001260</span><span class="w"> </span>&lt;T_sum&gt;:
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2"></a><span class="w">    </span><span class="m">1260</span>:<span class="w">       </span>f3<span class="w"> </span>0f<span class="w"> </span>1e<span class="w"> </span>fa<span class="w">             </span>endbr64<span class="w"> </span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3"></a><span class="w">    </span><span class="m">1264</span>:<span class="w">       </span><span class="m">48</span><span class="w"> </span><span class="m">81</span><span class="w"> </span><span class="m">05</span><span class="w"> </span>d1<span class="w"> </span>2d<span class="w"> </span><span class="m">00</span><span class="w"> </span><span class="m">00</span><span class="w">    </span>addq<span class="w">   </span><span class="nv">$0</span>x5f5e100,0x2dd1<span class="o">(</span>%rip<span class="o">)</span><span class="w">        </span><span class="c1"># 4040 &lt;sum&gt;</span>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4"></a><span class="w">    </span>126b:<span class="w">       </span><span class="m">00</span><span class="w"> </span>e1<span class="w"> </span>f5<span class="w"> </span><span class="m">05</span><span class="w"> </span>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5"></a><span class="w">    </span>126f:<span class="w">       </span>c3<span class="w">                      </span>ret
+</span></code></pre></div></td></tr></table></div>
+</li>
+</ul>
+</li>
+<li>
+<p>memory model:</p>
+<ul>
+<li>你以为的共享内存:
+<img alt="alt text" src="../../img/image.png" /></li>
+<li>实际的共享内存: 每个线程都有自己的内存副本，他们之间通过某种方式同步
+<img alt="alt text" src="../../img/image-1.png" /></li>
+<li>x86：市面 “最强” 内存模型 (类比 ARM/RISC-V)
+<img alt="alt text" src="../../img/image-2.png" /></li>
+</ul>
+<p>mem_model.c:
+<div class="language-c highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">C</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-11-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-11-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-11-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-11-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-11-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-11-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-11-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-11-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-11-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-11-10">10</a></span>
+<span class="normal"><a href="#__codelineno-11-11">11</a></span>
+<span class="normal"><a href="#__codelineno-11-12">12</a></span>
+<span class="normal"><a href="#__codelineno-11-13">13</a></span>
+<span class="normal"><a href="#__codelineno-11-14">14</a></span>
+<span class="normal"><a href="#__codelineno-11-15">15</a></span>
+<span class="normal"><a href="#__codelineno-11-16">16</a></span>
+<span class="normal"><a href="#__codelineno-11-17">17</a></span>
+<span class="normal"><a href="#__codelineno-11-18">18</a></span>
+<span class="normal"><a href="#__codelineno-11-19">19</a></span>
+<span class="normal"><a href="#__codelineno-11-20">20</a></span>
+<span class="normal"><a href="#__codelineno-11-21">21</a></span>
+<span class="normal"><a href="#__codelineno-11-22">22</a></span>
+<span class="normal"><a href="#__codelineno-11-23">23</a></span>
+<span class="normal"><a href="#__codelineno-11-24">24</a></span>
+<span class="normal"><a href="#__codelineno-11-25">25</a></span>
+<span class="normal"><a href="#__codelineno-11-26">26</a></span>
+<span class="normal"><a href="#__codelineno-11-27">27</a></span>
+<span class="normal"><a href="#__codelineno-11-28">28</a></span>
+<span class="normal"><a href="#__codelineno-11-29">29</a></span>
+<span class="normal"><a href="#__codelineno-11-30">30</a></span>
+<span class="normal"><a href="#__codelineno-11-31">31</a></span>
+<span class="normal"><a href="#__codelineno-11-32">32</a></span>
+<span class="normal"><a href="#__codelineno-11-33">33</a></span>
+<span class="normal"><a href="#__codelineno-11-34">34</a></span>
+<span class="normal"><a href="#__codelineno-11-35">35</a></span>
+<span class="normal"><a href="#__codelineno-11-36">36</a></span>
+<span class="normal"><a href="#__codelineno-11-37">37</a></span>
+<span class="normal"><a href="#__codelineno-11-38">38</a></span>
+<span class="normal"><a href="#__codelineno-11-39">39</a></span>
+<span class="normal"><a href="#__codelineno-11-40">40</a></span>
+<span class="normal"><a href="#__codelineno-11-41">41</a></span>
+<span class="normal"><a href="#__codelineno-11-42">42</a></span>
+<span class="normal"><a href="#__codelineno-11-43">43</a></span>
+<span class="normal"><a href="#__codelineno-11-44">44</a></span>
+<span class="normal"><a href="#__codelineno-11-45">45</a></span>
+<span class="normal"><a href="#__codelineno-11-46">46</a></span>
+<span class="normal"><a href="#__codelineno-11-47">47</a></span>
+<span class="normal"><a href="#__codelineno-11-48">48</a></span>
+<span class="normal"><a href="#__codelineno-11-49">49</a></span>
+<span class="normal"><a href="#__codelineno-11-50">50</a></span>
+<span class="normal"><a href="#__codelineno-11-51">51</a></span>
+<span class="normal"><a href="#__codelineno-11-52">52</a></span>
+<span class="normal"><a href="#__codelineno-11-53">53</a></span>
+<span class="normal"><a href="#__codelineno-11-54">54</a></span>
+<span class="normal"><a href="#__codelineno-11-55">55</a></span>
+<span class="normal"><a href="#__codelineno-11-56">56</a></span>
+<span class="normal"><a href="#__codelineno-11-57">57</a></span>
+<span class="normal"><a href="#__codelineno-11-58">58</a></span>
+<span class="normal"><a href="#__codelineno-11-59">59</a></span>
+<span class="normal"><a href="#__codelineno-11-60">60</a></span>
+<span class="normal"><a href="#__codelineno-11-61">61</a></span>
+<span class="normal"><a href="#__codelineno-11-62">62</a></span>
+<span class="normal"><a href="#__codelineno-11-63">63</a></span>
+<span class="normal"><a href="#__codelineno-11-64">64</a></span>
+<span class="normal"><a href="#__codelineno-11-65">65</a></span>
+<span class="normal"><a href="#__codelineno-11-66">66</a></span>
+<span class="normal"><a href="#__codelineno-11-67">67</a></span>
+<span class="normal"><a href="#__codelineno-11-68">68</a></span>
+<span class="normal"><a href="#__codelineno-11-69">69</a></span>
+<span class="normal"><a href="#__codelineno-11-70">70</a></span>
+<span class="normal"><a href="#__codelineno-11-71">71</a></span>
+<span class="normal"><a href="#__codelineno-11-72">72</a></span>
+<span class="normal"><a href="#__codelineno-11-73">73</a></span>
+<span class="normal"><a href="#__codelineno-11-74">74</a></span>
+<span class="normal"><a href="#__codelineno-11-75">75</a></span>
+<span class="normal"><a href="#__codelineno-11-76">76</a></span>
+<span class="normal"><a href="#__codelineno-11-77">77</a></span>
+<span class="normal"><a href="#__codelineno-11-78">78</a></span>
+<span class="normal"><a href="#__codelineno-11-79">79</a></span>
+<span class="normal"><a href="#__codelineno-11-80">80</a></span>
+<span class="normal"><a href="#__codelineno-11-81">81</a></span>
+<span class="normal"><a href="#__codelineno-11-82">82</a></span>
+<span class="normal"><a href="#__codelineno-11-83">83</a></span>
+<span class="normal"><a href="#__codelineno-11-84">84</a></span>
+<span class="normal"><a href="#__codelineno-11-85">85</a></span>
+<span class="normal"><a href="#__codelineno-11-86">86</a></span>
+<span class="normal"><a href="#__codelineno-11-87">87</a></span>
+<span class="normal"><a href="#__codelineno-11-88">88</a></span>
+<span class="normal"><a href="#__codelineno-11-89">89</a></span>
+<span class="normal"><a href="#__codelineno-11-90">90</a></span>
+<span class="normal"><a href="#__codelineno-11-91">91</a></span>
+<span class="normal"><a href="#__codelineno-11-92">92</a></span>
+<span class="normal"><a href="#__codelineno-11-93">93</a></span>
+<span class="normal"><a href="#__codelineno-11-94">94</a></span>
+<span class="normal"><a href="#__codelineno-11-95">95</a></span>
+<span class="normal"><a href="#__codelineno-11-96">96</a></span>
+<span class="normal"><a href="#__codelineno-11-97">97</a></span>
+<span class="normal"><a href="#__codelineno-11-98">98</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;thread.h&gt;</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdatomic.h&gt;</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3"></a>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4"></a><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5"></a><span class="kt">atomic_int</span><span class="w"> </span><span class="n">flag</span><span class="p">;</span>
+</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6"></a>
+</span><span id="__span-11-7"><a id="__codelineno-11-7" name="__codelineno-11-7"></a><span class="cp">#define F1  1</span>
+</span><span id="__span-11-8"><a id="__codelineno-11-8" name="__codelineno-11-8"></a><span class="cp">#define F2  2</span>
+</span><span id="__span-11-9"><a id="__codelineno-11-9" name="__codelineno-11-9"></a>
+</span><span id="__span-11-10"><a id="__codelineno-11-10" name="__codelineno-11-10"></a><span class="cp">#define FLAG \</span>
+</span><span id="__span-11-11"><a id="__codelineno-11-11" name="__codelineno-11-11"></a><span class="cp">    atomic_load(&amp;flag)</span>
+</span><span id="__span-11-12"><a id="__codelineno-11-12" name="__codelineno-11-12"></a><span class="cp">#define FLAG_XOR(val) \</span>
+</span><span id="__span-11-13"><a id="__codelineno-11-13" name="__codelineno-11-13"></a><span class="cp">    atomic_fetch_xor(&amp;flag, val)</span>
+</span><span id="__span-11-14"><a id="__codelineno-11-14" name="__codelineno-11-14"></a><span class="cp">#define WAIT_FOR(cond) \</span>
+</span><span id="__span-11-15"><a id="__codelineno-11-15" name="__codelineno-11-15"></a><span class="cp">    while (!(cond))    \</span>
+</span><span id="__span-11-16"><a id="__codelineno-11-16" name="__codelineno-11-16"></a><span class="cp">        ;</span>
+</span><span id="__span-11-17"><a id="__codelineno-11-17" name="__codelineno-11-17"></a>
+</span><span id="__span-11-18"><a id="__codelineno-11-18" name="__codelineno-11-18"></a><span class="n">__attribute__</span><span class="p">((</span><span class="n">noinline</span><span class="p">))</span>
+</span><span id="__span-11-19"><a id="__codelineno-11-19" name="__codelineno-11-19"></a><span class="kt">void</span><span class="w"> </span><span class="n">write_x_read_y</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-20"><a id="__codelineno-11-20" name="__codelineno-11-20"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">y_val</span><span class="p">;</span>
+</span><span id="__span-11-21"><a id="__codelineno-11-21" name="__codelineno-11-21"></a>
+</span><span id="__span-11-22"><a id="__codelineno-11-22" name="__codelineno-11-22"></a><span class="w">    </span><span class="k">asm</span><span class="w"> </span><span class="k">volatile</span><span class="p">(</span>
+</span><span id="__span-11-23"><a id="__codelineno-11-23" name="__codelineno-11-23"></a><span class="w">        </span><span class="s">&quot;movl $1, %0;&quot;</span><span class="w"> </span><span class="c1">// x = 1</span>
+</span><span id="__span-11-24"><a id="__codelineno-11-24" name="__codelineno-11-24"></a><span class="w">        </span><span class="s">&quot;movl %2, %1;&quot;</span><span class="w"> </span><span class="c1">// y_val = y</span>
+</span><span id="__span-11-25"><a id="__codelineno-11-25" name="__codelineno-11-25"></a><span class="w">        </span><span class="o">:</span><span class="w"> </span><span class="s">&quot;=m&quot;</span><span class="p">(</span><span class="n">x</span><span class="p">),</span><span class="w"> </span><span class="s">&quot;=r&quot;</span><span class="p">(</span><span class="n">y_val</span><span class="p">)</span>
+</span><span id="__span-11-26"><a id="__codelineno-11-26" name="__codelineno-11-26"></a><span class="w">        </span><span class="o">:</span><span class="w"> </span><span class="s">&quot;m&quot;</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+</span><span id="__span-11-27"><a id="__codelineno-11-27" name="__codelineno-11-27"></a><span class="w">    </span><span class="p">);</span>
+</span><span id="__span-11-28"><a id="__codelineno-11-28" name="__codelineno-11-28"></a>
+</span><span id="__span-11-29"><a id="__codelineno-11-29" name="__codelineno-11-29"></a><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%d &quot;</span><span class="p">,</span><span class="w"> </span><span class="n">y_val</span><span class="p">);</span>
+</span><span id="__span-11-30"><a id="__codelineno-11-30" name="__codelineno-11-30"></a><span class="p">}</span>
+</span><span id="__span-11-31"><a id="__codelineno-11-31" name="__codelineno-11-31"></a>
+</span><span id="__span-11-32"><a id="__codelineno-11-32" name="__codelineno-11-32"></a><span class="n">__attribute__</span><span class="p">((</span><span class="n">noinline</span><span class="p">))</span>
+</span><span id="__span-11-33"><a id="__codelineno-11-33" name="__codelineno-11-33"></a><span class="kt">void</span><span class="w"> </span><span class="n">write_y_read_x</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-34"><a id="__codelineno-11-34" name="__codelineno-11-34"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">x_val</span><span class="p">;</span>
+</span><span id="__span-11-35"><a id="__codelineno-11-35" name="__codelineno-11-35"></a>
+</span><span id="__span-11-36"><a id="__codelineno-11-36" name="__codelineno-11-36"></a><span class="w">    </span><span class="k">asm</span><span class="w"> </span><span class="k">volatile</span><span class="p">(</span>
+</span><span id="__span-11-37"><a id="__codelineno-11-37" name="__codelineno-11-37"></a><span class="w">        </span><span class="s">&quot;movl $1, %0;&quot;</span><span class="w"> </span><span class="c1">// y = 1</span>
+</span><span id="__span-11-38"><a id="__codelineno-11-38" name="__codelineno-11-38"></a><span class="w">        </span><span class="s">&quot;movl %2, %1;&quot;</span><span class="w"> </span><span class="c1">// x_val = x</span>
+</span><span id="__span-11-39"><a id="__codelineno-11-39" name="__codelineno-11-39"></a><span class="w">        </span><span class="o">:</span><span class="w"> </span><span class="s">&quot;=m&quot;</span><span class="p">(</span><span class="n">y</span><span class="p">),</span><span class="w"> </span><span class="s">&quot;=r&quot;</span><span class="p">(</span><span class="n">x_val</span><span class="p">)</span>
+</span><span id="__span-11-40"><a id="__codelineno-11-40" name="__codelineno-11-40"></a><span class="w">        </span><span class="o">:</span><span class="w"> </span><span class="s">&quot;m&quot;</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span><span id="__span-11-41"><a id="__codelineno-11-41" name="__codelineno-11-41"></a><span class="w">    </span><span class="p">);</span>
+</span><span id="__span-11-42"><a id="__codelineno-11-42" name="__codelineno-11-42"></a>
+</span><span id="__span-11-43"><a id="__codelineno-11-43" name="__codelineno-11-43"></a><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%d &quot;</span><span class="p">,</span><span class="w"> </span><span class="n">x_val</span><span class="p">);</span>
+</span><span id="__span-11-44"><a id="__codelineno-11-44" name="__codelineno-11-44"></a><span class="p">}</span>
+</span><span id="__span-11-45"><a id="__codelineno-11-45" name="__codelineno-11-45"></a>
+</span><span id="__span-11-46"><a id="__codelineno-11-46" name="__codelineno-11-46"></a><span class="kt">void</span><span class="w"> </span><span class="n">T_1</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-47"><a id="__codelineno-11-47" name="__codelineno-11-47"></a><span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-48"><a id="__codelineno-11-48" name="__codelineno-11-48"></a><span class="w">        </span><span class="c1">// Wait until F1 is raised.</span>
+</span><span id="__span-11-49"><a id="__codelineno-11-49" name="__codelineno-11-49"></a><span class="w">        </span><span class="n">WAIT_FOR</span><span class="p">((</span><span class="n">FLAG</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">F1</span><span class="p">));</span>
+</span><span id="__span-11-50"><a id="__codelineno-11-50" name="__codelineno-11-50"></a>
+</span><span id="__span-11-51"><a id="__codelineno-11-51" name="__codelineno-11-51"></a><span class="w">        </span><span class="n">write_x_read_y</span><span class="p">();</span>
+</span><span id="__span-11-52"><a id="__codelineno-11-52" name="__codelineno-11-52"></a>
+</span><span id="__span-11-53"><a id="__codelineno-11-53" name="__codelineno-11-53"></a><span class="w">        </span><span class="c1">// Put F1 down.</span>
+</span><span id="__span-11-54"><a id="__codelineno-11-54" name="__codelineno-11-54"></a><span class="w">        </span><span class="n">FLAG_XOR</span><span class="p">(</span><span class="n">F1</span><span class="p">);</span>
+</span><span id="__span-11-55"><a id="__codelineno-11-55" name="__codelineno-11-55"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-11-56"><a id="__codelineno-11-56" name="__codelineno-11-56"></a><span class="p">}</span>
+</span><span id="__span-11-57"><a id="__codelineno-11-57" name="__codelineno-11-57"></a>
+</span><span id="__span-11-58"><a id="__codelineno-11-58" name="__codelineno-11-58"></a><span class="kt">void</span><span class="w"> </span><span class="n">T_2</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-59"><a id="__codelineno-11-59" name="__codelineno-11-59"></a><span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-60"><a id="__codelineno-11-60" name="__codelineno-11-60"></a><span class="w">        </span><span class="c1">// Wait until F2 is raised.</span>
+</span><span id="__span-11-61"><a id="__codelineno-11-61" name="__codelineno-11-61"></a><span class="w">        </span><span class="n">WAIT_FOR</span><span class="p">((</span><span class="n">FLAG</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">F2</span><span class="p">));</span>
+</span><span id="__span-11-62"><a id="__codelineno-11-62" name="__codelineno-11-62"></a>
+</span><span id="__span-11-63"><a id="__codelineno-11-63" name="__codelineno-11-63"></a><span class="w">        </span><span class="n">write_y_read_x</span><span class="p">();</span>
+</span><span id="__span-11-64"><a id="__codelineno-11-64" name="__codelineno-11-64"></a>
+</span><span id="__span-11-65"><a id="__codelineno-11-65" name="__codelineno-11-65"></a><span class="w">        </span><span class="c1">// Put F2 down.</span>
+</span><span id="__span-11-66"><a id="__codelineno-11-66" name="__codelineno-11-66"></a><span class="w">        </span><span class="n">FLAG_XOR</span><span class="p">(</span><span class="n">F2</span><span class="p">);</span>
+</span><span id="__span-11-67"><a id="__codelineno-11-67" name="__codelineno-11-67"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-11-68"><a id="__codelineno-11-68" name="__codelineno-11-68"></a><span class="p">}</span>
+</span><span id="__span-11-69"><a id="__codelineno-11-69" name="__codelineno-11-69"></a>
+</span><span id="__span-11-70"><a id="__codelineno-11-70" name="__codelineno-11-70"></a><span class="kt">void</span><span class="w"> </span><span class="n">T_flag</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-71"><a id="__codelineno-11-71" name="__codelineno-11-71"></a><span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-72"><a id="__codelineno-11-72" name="__codelineno-11-72"></a><span class="w">        </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+</span><span id="__span-11-73"><a id="__codelineno-11-73" name="__codelineno-11-73"></a><span class="w">        </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+</span><span id="__span-11-74"><a id="__codelineno-11-74" name="__codelineno-11-74"></a><span class="w">        </span><span class="n">__sync_synchronize</span><span class="p">();</span><span class="w"> </span><span class="c1">// full barrier</span>
+</span><span id="__span-11-75"><a id="__codelineno-11-75" name="__codelineno-11-75"></a><span class="w">        </span><span class="n">usleep</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w">            </span><span class="c1">// + delay</span>
+</span><span id="__span-11-76"><a id="__codelineno-11-76" name="__codelineno-11-76"></a>
+</span><span id="__span-11-77"><a id="__codelineno-11-77" name="__codelineno-11-77"></a><span class="w">        </span><span class="c1">// Now, x = 0, y = 0, and flag = 0.</span>
+</span><span id="__span-11-78"><a id="__codelineno-11-78" name="__codelineno-11-78"></a><span class="w">        </span><span class="c1">// T_1 and T_2 should be waiting for their flags.</span>
+</span><span id="__span-11-79"><a id="__codelineno-11-79" name="__codelineno-11-79"></a><span class="w">        </span><span class="n">assert</span><span class="p">(</span><span class="n">FLAG</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+</span><span id="__span-11-80"><a id="__codelineno-11-80" name="__codelineno-11-80"></a>
+</span><span id="__span-11-81"><a id="__codelineno-11-81" name="__codelineno-11-81"></a><span class="w">        </span><span class="c1">// flag = F1 | F2; Both flags are raised.</span>
+</span><span id="__span-11-82"><a id="__codelineno-11-82" name="__codelineno-11-82"></a><span class="w">        </span><span class="n">FLAG_XOR</span><span class="p">(</span><span class="n">F1</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">F2</span><span class="p">);</span>
+</span><span id="__span-11-83"><a id="__codelineno-11-83" name="__codelineno-11-83"></a>
+</span><span id="__span-11-84"><a id="__codelineno-11-84" name="__codelineno-11-84"></a><span class="w">        </span><span class="c1">// T1 and T2 are ready to go...</span>
+</span><span id="__span-11-85"><a id="__codelineno-11-85" name="__codelineno-11-85"></a><span class="w">        </span><span class="c1">// They will eventually put F1 and F2 down.</span>
+</span><span id="__span-11-86"><a id="__codelineno-11-86" name="__codelineno-11-86"></a><span class="w">        </span><span class="n">WAIT_FOR</span><span class="p">(</span><span class="n">FLAG</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+</span><span id="__span-11-87"><a id="__codelineno-11-87" name="__codelineno-11-87"></a>
+</span><span id="__span-11-88"><a id="__codelineno-11-88" name="__codelineno-11-88"></a><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+</span><span id="__span-11-89"><a id="__codelineno-11-89" name="__codelineno-11-89"></a><span class="w">        </span><span class="n">fflush</span><span class="p">(</span><span class="n">stdout</span><span class="p">);</span>
+</span><span id="__span-11-90"><a id="__codelineno-11-90" name="__codelineno-11-90"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-11-91"><a id="__codelineno-11-91" name="__codelineno-11-91"></a><span class="p">}</span>
+</span><span id="__span-11-92"><a id="__codelineno-11-92" name="__codelineno-11-92"></a>
+</span><span id="__span-11-93"><a id="__codelineno-11-93" name="__codelineno-11-93"></a><span class="kt">int</span><span class="w"> </span><span class="n">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-94"><a id="__codelineno-11-94" name="__codelineno-11-94"></a><span class="w">    </span><span class="c1">// All infinite loops</span>
+</span><span id="__span-11-95"><a id="__codelineno-11-95" name="__codelineno-11-95"></a><span class="w">    </span><span class="n">create</span><span class="p">(</span><span class="n">T_1</span><span class="p">);</span>
+</span><span id="__span-11-96"><a id="__codelineno-11-96" name="__codelineno-11-96"></a><span class="w">    </span><span class="n">create</span><span class="p">(</span><span class="n">T_2</span><span class="p">);</span>
+</span><span id="__span-11-97"><a id="__codelineno-11-97" name="__codelineno-11-97"></a><span class="w">    </span><span class="n">create</span><span class="p">(</span><span class="n">T_flag</span><span class="p">);</span>
+</span><span id="__span-11-98"><a id="__codelineno-11-98" name="__codelineno-11-98"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div></p>
+<p><code>./mem-model  | head -n 10000 | sort | uniq -c</code>输出：
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-12-1">1</a></span>
+<span class="normal"><a href="#__codelineno-12-2">2</a></span>
+<span class="normal"><a href="#__codelineno-12-3">3</a></span>
+<span class="normal"><a href="#__codelineno-12-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1"></a><span class="m">7978</span><span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="m">0</span><span class="w"> </span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2"></a><span class="m">1783</span><span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3"></a><span class="w"> </span><span class="m">237</span><span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="m">0</span><span class="w"> </span>
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4"></a><span class="w">   </span><span class="m">2</span><span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="m">1</span>
+</span></code></pre></div></td></tr></table></div></p>
+<table>
+<thead>
+<tr>
+<th>T_1</th>
+<th>T_2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>① x = 1 <br> ② load y</td>
+<td>③ y = 1 <br> ④ load x</td>
+</tr>
+</tbody>
+</table>
+<p>出现0 0的原因是真正的memory model和我们想象的并不一样。处理器也是编译器:</p>
+<ul>
+<li>预取状态机执行的<span style="color:lightblue;">若干步</span>，然后像编译器一样优化</li>
+<li>Load(x); Store(y)</li>
+<li>x ≠ y → 两条指令执行的先后顺序就无所谓</li>
+<li>Load cache miss → store 可以直接执行</li>
+</ul>
+</li>
 </ol>
-<div class="admonition info">
-<p class="admonition-title">Operating System concept</p>
-<p>Operating System: A body of software, in fact, that is responsible for <em>making it easy to run programs</em> (even allowing you to seemingly run many at the same time), allowing programs to share memory, enabling programs to interact with devices, and other fun stuff like that. (OSTEP)</p>
+<h2 id="lecture-6-1">Lecture 6 并发控制：互斥 (1)<a class="headerlink" href="#lecture-6-1" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Take-away Messages</p>
+<p>并发编程 “很难”：想要完全理解并发程序的行为，是非常困难的——我们甚至可以利用一个 “万能” 的调度器去帮助我们求解 NP-完全问题。因此，人类应对这种复杂性的方法就是退回到不并发。通过互斥实现 stop/resume the world，我们就可以使并发程序的执行变得更容易理解——而只要程序中 “能并行” 的部分足够多，串行化一小部分也并不会对性能带来致命的影响。</p>
 </div>
-<h2 id="lecture-1">Lecture 1 操作系统概述<a class="headerlink" href="#lecture-1" title="Permanent link">&para;</a></h2>
-<ol>
-<li>时钟、导线、逻辑门(NAND，即与非门)、寄存器是数字系统的基本组成部分：数字系统在时钟驱动下离散地更新下一周期的寄存器状态。</li>
-<li>数字电路模拟器，编译：<code>gcc -o logisim -I. logisim.c</code>, 其中<code>-I.</code>指定当前目录（<code>.</code>）为头文件搜索路径，这意味着编译器会在当前目录下查找头文件。运行：<code>./logisim</code>，可视化运行: <code>make run</code>或<code>./logisim | python seg-display.py</code>。单独运行<code>python seg-display.py</code>时，程序会等着输入，此时输入<code>A=1</code>即可点亮数码管。</li>
-<li>RISC-V 处理器模拟器，编译：<code>gcc -g -o mini-rv32ima main.c</code>或<code>make</code>，运行：<code>./mini-rv32ima bin/fib.rv32i-bin 10</code>，结果存在a0寄存器。</li>
-</ol>
+<p>1.</p>
+<h2 id="lecture-7-2">Lecture 7 并发控制：互斥 (2)<a class="headerlink" href="#lecture-7-2" title="Permanent link">&para;</a></h2>
+<h2 id="lecture-8">Lecture 8 调试理论与实践<a class="headerlink" href="#lecture-8" title="Permanent link">&para;</a></h2>
+<h2 id="lecture-9-1">Lecture 9 并发控制：同步 (1)<a class="headerlink" href="#lecture-9-1" title="Permanent link">&para;</a></h2>
+<h2 id="lecture-10-2">Lecture 10 并发控制：同步 (2)<a class="headerlink" href="#lecture-10-2" title="Permanent link">&para;</a></h2>
+<h2 id="lecture-11">Lecture 11 真实世界的并发编程<a class="headerlink" href="#lecture-11" title="Permanent link">&para;</a></h2>
+<h2 id="lecture-12-bugs">Lecture 12 并发 Bugs<a class="headerlink" href="#lecture-12-bugs" title="Permanent link">&para;</a></h2>
+<h2 id="lecture-13-bugs">Lecture 13 应对 (并发) Bugs<a class="headerlink" href="#lecture-13-bugs" title="Permanent link">&para;</a></h2>
 
 
 
@@ -1481,7 +2251,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">2024年10月7日 17:45:45</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">2024年10月13日 17:12:05</span>
   </span>
 
     
@@ -1491,7 +2261,7 @@
     <span class="md-icon" title="创建日期">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">2024年10月7日 17:45:45</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">2024年10月13日 17:12:05</span>
   </span>
 
     
