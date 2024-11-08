@@ -1448,7 +1448,7 @@
   <h1>Todo</h1>
 
 <div style="margin-top: -30px; font-size: 0.75em; opacity: 0.7;">
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10h-2a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8V2m6.78 1a.69.69 0 0 0-.48.2l-1.22 1.21 2.5 2.5L20.8 5.7c.26-.26.26-.7 0-.95L19.25 3.2c-.13-.13-.3-.2-.47-.2m-2.41 2.12L9 12.5V15h2.5l7.37-7.38-2.5-2.5Z"/></svg></span> 约 204 个字 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"/></svg></span> 预计阅读时间 1 分钟</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10h-2a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8V2m6.78 1a.69.69 0 0 0-.48.2l-1.22 1.21 2.5 2.5L20.8 5.7c.26-.26.26-.7 0-.95L19.25 3.2c-.13-.13-.3-.2-.47-.2m-2.41 2.12L9 12.5V15h2.5l7.37-7.38-2.5-2.5Z"/></svg></span> 约 327 个字 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"/></svg></span> 预计阅读时间 1 分钟</p>
 </div>
 <h2 id="todo">Todo<a class="headerlink" href="#todo" title="Permanent link">&para;</a></h2>
 <p>📌 内联回调函数：<a href="https://python3-cookbook.readthedocs.io/zh-cn/latest/c07/p11_inline_callback_functions.html">https://python3-cookbook.readthedocs.io/zh-cn/latest/c07/p11_inline_callback_functions.html</a></p>
@@ -1472,6 +1472,11 @@
 <li><a href="https://jyywiki.cn/OS/2024/labs/L1.md">L1: 物理内存管理 (pmm)</a></li>
 <li><a href="https://jyywiki.cn/OS/2024/labs/M3.md">M3: GPT-2 并行推理 (gpt.c)</a></li>
 <li><a href="https://jyywiki.cn/OS/2024/labs/M4.md">M4: C Read-Eval-Print-Loop (crepl)</a></li>
+<li><a href="https://jyywiki.cn/OS/2024/labs/M5.md">M5: 系统调用 Profiler (sperf)</a></li>
+<li><a href="https://jyywiki.cn/OS/2024/labs/L2.md">L2: 内核线程管理 (kmt)</a></li>
+<li>Lecture 20 动态链接和加载(18~20可以重新看下)。Lect21开头还有链接的一部分。</li>
+<li>Lecture 27 里 实现文件/设备驱动程序/ioctl再看看</li>
+<li><a href="https://jyywiki.cn/OS/2024/labs/M6.md">M6: 文件系统格式化恢复 (fsrecov)</a></li>
 </ul>
 <p>📌 <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/">课本</a></p>
 <ul>
@@ -1492,9 +1497,18 @@
 <li>第 12 章 - Dialogue</li>
 <li>第 13 章 - Address Spaces</li>
 <li>第 14 章 - Memory API</li>
+<li>...</li>
+<li>第 37 章 - Hard Disk Drives</li>
+<li>第 44 章 - Flash-based SSDs</li>
+<li>第 36 章 - I/O Devices</li>
+<li>第 39 章 - Files and Directories</li>
+<li>第 40 章 - File System Implementation</li>
+<li>第 41 章 - Fast File System (FFS)</li>
+<li>第 38 章 - Redundant Disk Arrays (RAID)</li>
+<li>第 42 章 - FSCK and Journaling</li>
+<li>第 43 章 - Log-structured File System (LFS)</li>
 </ul>
 <h2 id="os-finished">OS Finished<a class="headerlink" href="#os-finished" title="Permanent link">&para;</a></h2>
-<p>📌 Lecture 1/2/3/4/5/6</p>
 
 
 
@@ -1588,6 +1602,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js"></script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
